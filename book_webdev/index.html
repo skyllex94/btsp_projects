@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f1ffef567b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/book_webdev/css/boostrap.css">
+    <link rel="stylesheet" href="/book_webdev/css/style.css">
+        <title>Book Landing Page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md nav-light fixed-top py-3">
+        <div class="container">
+            <a href="#home" class="navbar-brand">
+                <img src="/book_webdev/img/mlogo.png" width="50" height="50">
+                <h3 class="d-inline align-middle text-info">Middle Man</h3>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarMain" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#authors" class="nav-link">Meet The Authors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+<script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    // Init ScrollSpy
+    // $('body').scrollspy({target: '#main-spy'});
+</script>
+
+</html>
