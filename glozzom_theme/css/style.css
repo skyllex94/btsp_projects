@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
@@ -49,7 +53,7 @@
   position: relative;
   min-height: 200px;
   background: url(/glozzom_theme/img/media.jpg);
-  background-position: 0 -300px;
+  background-position: 0 -200px;
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;

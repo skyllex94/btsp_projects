@@ -7,6 +7,9 @@
     <script src="https://kit.fontawesome.com/f1ffef567b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.css"
+            integrity="sha512-BVGjJ8Wc+4E8JKyoqnbAdqEnglgKerD/1rMioxpitveJM3hC0MNyuKSVZpb02cUDzERc5tWFSOXmziXylXMv2g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/glozzom_theme/css/style.css">
         <title>SocialLab</title>
 </head>
@@ -140,20 +143,25 @@
         </div>
     </section>
 
+    
+
     <!-- Video Play -->
     <section id="video-play">
         <div class="dark-overlay">
             <div class="row">
                 <div class="col">
-                    <div class="container p-5">
+                    <div class="container py-5">
                         <a href="#" data-video="https://www.youtube.com/embed/eOl8WtjOO4I" data-toggle="modal" data-target="#videoModal" class="video">
                             <i class="fa fa-play fa-3x"></i>
                         </a>
+                        <p class="lead pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas modi magnam quam aperiam? Sapiente, harum.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+   
 
     <!-- Video Modal -->
     <div class="modal fade mt-5" id="videoModal">
@@ -173,6 +181,78 @@
         </div>
     </div>
 
+    <!-- Photo Gallery -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h1 class="text-center">Photo Gallery</h1>
+            <p class="text-center">Check Out our Photos</p>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560" class="">
+                        <img src="https://source.unsplash.com/random/560x560" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery"
+                        data-height="560" data-width="560" class="">
+                        <img src="https://source.unsplash.com/random/561x561" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox" data-gallery="img-gallery"
+                        data-height="560" data-width="560" class="">
+                        <img src="https://source.unsplash.com/random/562x562" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/563x563" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560" class="">
+                        <img src="https://source.unsplash.com/random/563x563" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/564x564" data-toggle="lightbox" data-gallery="img-gallery"
+                        data-height="560" data-width="560" class="">
+                        <img src="https://source.unsplash.com/random/564x564" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://source.unsplash.com/random/565x565" data-toggle="lightbox" data-gallery="img-gallery"
+                        data-height="560" data-width="560" class="">
+                        <img src="https://source.unsplash.com/random/565x565" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="text-center p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Sign Up for Out Newsletter</h1>
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam assumenda recusandae
+                        non laboriosam dolorum culpa dolor rem necessitatibus cumque mollitia.</p>
+                    <form action="" class="form-inline justify-content-center">
+                        <input type="text" class="form-control mb-3 mr-3" placeholder="Enter Name">
+                        <input type="email" class="form-control mb-3 mr-3" placeholder="Enter Email">
+                        <button class="btn btn-outline-info mb-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="main-footer" class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">Copyright &copy; <span id="year"></span></div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous">
@@ -183,6 +263,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
     integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js"
+        integrity="sha512-A91aOxAVV3f8rcTRk/X47XReRLOKD0gfRQVqmSS0M/ExMbdSCh95TPo4sY7thVoJuMCfd/u2+WkhJydNUB3lUQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
@@ -205,6 +289,12 @@
             })
         })
     })
+
+    // Light Box Init
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
 
     // Init ScrollSpy
     // $('body').scrollspy({target: '#main-spy'});
